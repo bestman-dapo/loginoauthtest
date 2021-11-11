@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.form-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(102, 102, 61);
+}
+.login_welcome{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.login-wrapper{
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-top: 30px;
+    border-radius: 7px;
+    box-shadow: 0 5px 10px #333;
+    background-color: white;
+}
+.login-wrapper input{
+    margin-bottom: 15px;
+}
+.login-submit{
+    width: 100px;
+    transform: translateX(80px);
+    margin-top: 20px;
+}
+.divider{
+    width: 10px;
+    margin: 0 auto;
+    margin-top: 40px;
+    position: relative;
+}
+.divider::after{
+    content: '';
+    position: absolute;
+    top: 13px;
+    left: -80px;
+    width: 70px;
+    height: 1px;
+    background-color: #555;
+}
+.divider::before{
+    content: '';
+    position: absolute;
+    top: 13px;
+    right: -85px;
+    width: 70px;
+    height: 1px;
+    background-color: #555;
+}
+.cashtokenlink{
+    text-decoration: none;
+    width: 240px;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-size: 15px;
+    display: flex;
+    color: #555;
+}
+.cashtokenlink img{
+    width: 25px;
+    height: 25px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+
+.profile-row{
+    margin-top: 20px !important;
+}
+
+.profile-header{
+    height: 60px; 
+    width: 100%; 
+    background: purple;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
