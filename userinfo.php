@@ -89,4 +89,4 @@ if (!isset($_SESSION['access_token'])) {
     $username = explode('"',$username);
     $_SESSION['user_name'] = $username[0];
 
-  header('Location: index.php');
+  header('Location: profile.php');
