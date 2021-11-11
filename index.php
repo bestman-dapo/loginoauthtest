@@ -96,9 +96,9 @@ if (isset($_GET['sign-out'])) {
 
 
 
-///Login&&Profile Page  Login&&Profile Page
-///Login&&Profile Page  Login&&Profile Page
-///Login&&Profile Page  Login&&Profile Page
+///LoginPage  LoginPage
+///LoginPage  LoginPage
+///LoginPage  LoginPage
 
 if (!isset($_GET['action'])) {
       
